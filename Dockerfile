@@ -3,13 +3,14 @@ FROM ubuntu:22.04
 # Avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install dependencies
+# Install dependencies - using minimal TeX packages for faster builds
 RUN apt-get update && apt-get install -y \
-    texlive-full \
-    texlive-fonts-extra \
+    texlive-latex-base \
+    texlive-latex-extra \
     texlive-xetex \
+    texlive-fonts-recommended \
+    texlive-fonts-extra \
     python3 \
-    python3-pip \
     python3-yaml \
     fonts-font-awesome \
     wget \

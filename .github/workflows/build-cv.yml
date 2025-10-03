@@ -15,20 +15,26 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
+
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
-      
+
       - name: Build Docker image
-        run: docker build -t my-resume-generator .
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          tags: my-resume-generator:latest
+          load: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
 
       - name: Generate English CV
         run: |
-          docker run -v $(pwd)/output:/output my-resume-generator en
+          docker run -v $(pwd)/output:/output my-resume-generator:latest en
 
       - name: Generate Italian CV
         run: |
-          docker run -v $(pwd)/output:/output my-resume-generator it
+          docker run -v $(pwd)/output:/output my-resume-generator:latest it
       
       - name: List generated files
         run: ls -lh output/
