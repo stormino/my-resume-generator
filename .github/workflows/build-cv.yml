@@ -1,0 +1,58 @@
+name: Build CV
+
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      
+      - name: Build Docker image
+        run: docker build -t my-resume-generator .
+
+      - name: Generate English CV
+        run: |
+          docker run -v $(pwd)/output:/output my-resume-generator en
+
+      - name: Generate Italian CV
+        run: |
+          docker run -v $(pwd)/output:/output my-resume-generator it
+      
+      - name: List generated files
+        run: ls -lh output/
+      
+      - name: Upload CV artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdfs-${{ github.ref_name }}
+          path: output/*.pdf
+          retention-days: 90
+      
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: output/*.pdf
+          body: |
+            ## CV PDFs - ${{ github.ref_name }}
+            
+            This release contains the generated CV PDFs in multiple languages:
+            - 🇬🇧 English version: `cv-en.pdf`
+            - 🇮🇹 Italian version: `cv-it.pdf`
+            
+            Branch: `${{ github.ref_name }}`
+            Commit: `${{ github.sha }}`
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,31 @@
+# CV Generator Configuration
+
+# Template to use (can be: awesome-cv, modern, classic)
+template: awesome-cv
+
+# Color scheme (only for awesome-cv template)
+# Options: skyblue, emerald, red, pink, orange, nephritis, concrete, darknight
+color: skyblue
+
+# Font size (in pt)
+font_size: 11
+
+# Page margins (in cm)
+margins:
+  left: 1.4
+  right: 1.4
+  top: 0.8
+  bottom: 1.8
+
+# Section ordering (customize order of sections in CV)
+sections:
+  - summary
+  - experience
+  - education
+  - skills
+
+# Show technologies line in experience entries
+show_technologies: true
+
+# Maximum bullet points per job (0 = unlimited)
+max_highlights_per_job: 0

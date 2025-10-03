@@ -1,0 +1,65 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Color for highlights
+\colorlet{awesome}{awesome-skyblue}
+
+% Personal Information
+\name{{{NAME}}}{}
+\position{{{TITLE}}}
+\address{{{ADDRESS}}}
+\mobile{{{PHONE}}}
+\email{{{EMAIL}}}
+\linkedin{danielefaieta}
+\github{{{GITHUB}}}
+\homepage{{{HOMEPAGE}}}
+
+\begin{document}
+
+% Print the header
+\makecvheader
+
+% Print the footer with page numbers
+\makecvfooter
+  {\today}
+  {{{NAME}}~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%-------------------------------------------------------------------------------
+
+\cvsection{{{LABEL_SUMMARY}}}
+
+\begin{cvparagraph}
+{{SUMMARY}}
+\end{cvparagraph}
+
+%-------------------------------------------------------------------------------
+\cvsection{{{LABEL_EXPERIENCE}}}
+
+\begin{cventries}
+{{EXPERIENCE}}
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\cvsection{{{LABEL_EDUCATION}}}
+
+\begin{cventries}
+{{EDUCATION}}
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+\cvsection{{{LABEL_SKILLS}}}
+
+\begin{cvskillentries}
+{{SKILLS}}
+\end{cvskillentries}
+
+%-------------------------------------------------------------------------------
+\end{document}

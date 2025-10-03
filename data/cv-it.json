@@ -1,0 +1,175 @@
+{
+  "personal": {
+    "name": "Daniele Faieta",
+    "title": "Software Architect & Platform Engineer",
+    "nationality": "Italiana",
+    "phone": "(+39) 3200725125",
+    "email": "daniele.faieta@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/danielefaieta",
+    "github": "https://github.com/stormino",
+    "homepage": "https://daniele.onrender.com",
+    "address": "Via Don Lorenzo Milani 42, 38121, Trento, Italia"
+  },
+  "summary": "Lavoro professionalmente nello sviluppo software da circa 20 anni, ma è stata una passione per tutta la vita. Non mi considero solo un programmatore, essendomi evoluto da una passione per la cybersecurity durante gli anni scolastici a un forte interesse per la cultura devops e il lato infrastrutturale/architetturale dei sistemi. Sono rigoroso e attento agli aspetti tecnici, ma ho la necessaria sensibilità ed esperienza per comprendere cosa è importante sviluppare per l'azienda per cui lavoro. Sono guidato dalla curiosità, che mi rende una persona con interessi in tutti gli ambiti, qualcosa che considero fondamentale per essere un professionista migliore.",
+  "experience": [
+    {
+      "period": "04/2023 – Attuale",
+      "location": "Trento, Italia",
+      "title": "Software Architect, Product Developer",
+      "company": "ThinkIN",
+      "description": "Riportando direttamente al CTO, i principali focus del mio lavoro sono:",
+      "highlights": [
+        "Sviluppare nuove integrazioni di dispositivi IoT come sensori e display digitali dai componenti edge alle API cloud",
+        "Mantenere la piattaforma cloud IoT, basata su Scala + AKKA Streams",
+        "Esprimere una visione tecnica e architetturale sulle nuove funzionalità del prodotto per la nostra piattaforma cloud IoT e discuterle con le persone di sales, marketing e prodotto",
+        "Supervisione delle scelte architetturali e di sviluppo relative a soluzioni verticali personalizzate basate sulla nostra piattaforma cloud, adattate alle varie esigenze dei clienti",
+        "Mentoring di stagisti e sviluppatori junior supervisionando progetti di ricerca e nuovi moduli costruiti sulla nostra piattaforma cloud",
+        "Cooperare attivamente con le persone dell'infrastruttura/operations per attività di supporto"
+      ],
+      "technologies": "Java, Spring Boot, Scala, Docker, Nomad, Consul, git, Python, Node.js, Kafka, Redis, MQTT, MySQL, Cassandra, Elasticsearch, MongoDB"
+    },
+    {
+      "period": "10/2019 – 03/2023",
+      "location": "Remoto",
+      "title": "R&D Software Engineer",
+      "company": "expert.ai",
+      "description": "Lavoro come ingegnere software R&D per il team cross-funzionale Platform engineering.",
+      "highlights": [
+        "Sviluppare servizi e moduli scalabili e ad alta disponibilità in una grande architettura a microservizi su cluster kubernetes, con flussi di dati asincroni utilizzando message broker e comunicazioni REST API classiche per una soluzione piattaforma MLOps",
+        "Condurre code review, sessioni di pair programming e mentoring con sviluppatori junior",
+        "Interfacciarsi con i team SRE per fornire feedback su strumenti IaC personalizzati e miglioramenti della pipeline SDLC",
+        "Lavorare a stretto contatto con PO e SM per fornire valore rispettando le scadenze di rilascio trimestrali",
+        "Studiare ed esplorare nuovi strumenti, soluzioni, approcci per risolvere sfide tecniche",
+        "Troubleshooting e gestione del supporto tra i ticket per il prodotto NLAPI e il portale per sviluppatori - rispettando i requisiti SLA"
+      ],
+      "technologies": "Java, Spring Boot, Docker, Kubernetes, git, Node.js, Golang, Kafka, Redis, RabbitMQ, MySQL, Elasticsearch, MongoDB, AWS, Terraform, Bash scripting"
+    },
+    {
+      "period": "03/2018 – 10/2019",
+      "location": "Trento, Italia",
+      "title": "Software Engineer",
+      "company": "Almaviva S.p.A.",
+      "description": "Clienti: Trentino Digitale",
+      "highlights": [
+        "SRT: technical leader responsabile dell'integrazione/porting di moduli legacy e golive della nuova applicazione; gestione del supporto e degli incident, code review e rilascio di nuove release",
+        "A4G: riferimento tecnico per il cliente, a capo di un team di tre persone. Responsabile dello sviluppo di nuovi servizi REST/SOAP e integrazione con quelli già esistenti, lavorando da remoto con altri due team utilizzando il framework agile LeSS (large scale scrum)"
+      ],
+      "technologies": "Java, Spring Boot, JPA, Oracle, MSSQL, Angular 5, Jenkins, Git, .NET 4.5, WCF, ASP.NET WebForms"
+    },
+    {
+      "period": "09/2017 – 03/2018",
+      "location": "Trento, Italia",
+      "title": "Software Engineer",
+      "company": "TC Consulting S.r.l.",
+      "description": "Progetti clienti per GPI S.p.A. e Fercam S.p.A.",
+      "highlights": [
+        "Analisi e gestione delle attività di avvio per un modulo responsabile della gestione di ordini e commissioni sviluppato in un ambiente proprietario basato su 4GL, a capo di un team di tre persone",
+        "Riferimento tecnico per il cliente; analisi e sviluppo di funzionalità e moduli per lo scambio dati tra sistemi"
+      ],
+      "technologies": ".NET framework, ASP.NET MVC, WebAPI"
+    },
+    {
+      "period": "09/2016 – 09/2017",
+      "location": "Trento, Italia",
+      "title": "Software Developer",
+      "company": "Geopartner S.r.l.",
+      "description": "Analisi e sviluppo del client desktop GeoKAT, un client GIS per la gestione del catasto.",
+      "highlights": [],
+      "technologies": ".NET 4.5, WCF, WPF, IoC containers, QGIS, Esri ArcGIS SDK"
+    },
+    {
+      "period": "12/2013 – 09/2016",
+      "location": "Mezzocorona, Italia",
+      "title": "Software Developer",
+      "company": "Wolters Kluwer Italia",
+      "description": "Sviluppo software per gestione paghe e risorse umane.",
+      "highlights": [
+        "Genya: analisi e sviluppo di moduli framework e nuove funzionalità per implementare l'integrazione delle paghe",
+        "Giotto: analisi e sviluppo di nuove funzionalità di un software paghe legacy",
+        "GiottoBudget: analisi e sviluppo di una nuova applicazione per il budget HR basata su algoritmi e strutture paghe esistenti"
+      ],
+      "technologies": "C#, .NET framework, jQuery, Entity Framework, MSSQL, Delphi XE11"
+    },
+    {
+      "period": "08/2011 – 12/2013",
+      "location": "Trento, Italia",
+      "title": "Software Developer",
+      "company": "I&T Servizi",
+      "description": "Cliente: Informatica Trentina - Sviluppo software per pubblica amministrazione.",
+      "highlights": [
+        "MLC (monitoraggio attività legislative e conferenze): sviluppo nuove funzionalità, reportistica",
+        "SGA (sistema di gestione studenti e scuole): principalmente sviluppo servizi backend WCF più alcune applicazioni windows forms",
+        "FGT (gestione fondo giovani): sviluppo fullstack",
+        "IOP (portale dipendenti): sviluppo di un modulo per container portlet Oracle WCI",
+        "SBC (sistema gestione beni culturali): sviluppo di un modulo di importazione massiva usando funzionalità WCF avanzate, manutenzione funzionalità esistenti, implementazione modulo GIS, integrazione con altri sistemi usando Biztalk"
+      ],
+      "technologies": "C#, .NET framework, MSSQL, Oracle, BizTalk"
+    },
+    {
+      "period": "12/2005 – 01/2010",
+      "location": "Chieti, Italia",
+      "title": "Software Developer",
+      "company": "Digitalsoft",
+      "description": "Automazione industriale e sviluppo software enterprise.",
+      "highlights": [
+        "Honeywell Turbo Technologies: Analisi e sviluppo di MHS (Material handling system) incluse funzionalità core per la gestione di carrelli elevatori trilaterali senza operatore, modulo TAPI per sistema di chiamata manutenzione automatica, integrazione SAP, dashboard visive per dati di produzione in tempo reale",
+        "Tod's: Analisi, sviluppo, consegna e golive di 'Scanshops', un set di strumenti per la gestione della logistica e dei flussi di magazzino utilizzati dai gestori dei negozi al dettaglio basati su scanner barcode Windows CE",
+        "DelVerde Industrie Alimentari: Analisi, sviluppo, consegna e golive del sistema di magazzino e logistica aziendale",
+        "Giobby: Analisi e sviluppo, configurazione cluster MySQL e Apache Tomcat con capacità di load balancing e HA"
+      ],
+      "technologies": "C++, C#, VB.NET, MSSQL, Oracle, SAP R/3, Windows CE .NET, Java, MySQL, Apache, Tomcat"
+    }
+  ],
+  "education": [
+    {
+      "period": "1996 – 2001",
+      "location": "Chieti, Italia",
+      "degree": "Diploma di Scuola Superiore (Perito Informatico 'Abacus')",
+      "institution": "Istituto Tecnico Industriale 'L. Di Savoia'"
+    },
+    {
+      "period": "09/2009 – 10/2010",
+      "location": "Pescara, Italia",
+      "degree": "Inglese - Livello 12 (Threshold - B2)",
+      "institution": "Wall Street Institute"
+    }
+  ],
+  "languages": {
+    "native": "Italiano",
+    "other": [
+      {
+        "language": "Inglese",
+        "level": "B2",
+        "listening": "B2",
+        "reading": "B2",
+        "spoken_production": "B2",
+        "spoken_interaction": "B2",
+        "writing": "B2"
+      }
+    ]
+  },
+  "skills": {
+    "technical": [
+      "Java, Spring Boot, Scala",
+      "Docker, Kubernetes, Nomad",
+      "Kafka, Redis, RabbitMQ, MQTT",
+      "MySQL, Cassandra, Elasticsearch, MongoDB",
+      "AWS, Terraform, Infrastructure as Code",
+      "Git, CI/CD, pratiche DevOps",
+      "Python, Node.js, Golang, Bash scripting",
+      ".NET (C#, ASP.NET, WCF, WPF)"
+    ],
+    "soft": [
+      "Design architetturale e leadership tecnica",
+      "Mentoring di team e code review",
+      "Collaborazione cross-funzionale",
+      "Metodologie Agile (Scrum, LeSS)",
+      "Problem-solving e troubleshooting",
+      "Gestione stakeholder"
+    ]
+  },
+  "additional": {
+    "memberships": "Socio ordinario SAT, sezione CAI (Club Alpino Italiano)",
+    "soft_skills_description": "Sono una persona alla mano che ama stabilire un legame veramente forte con i membri del suo team, così come con i membri di altri team. Credo davvero che il lavoro di squadra e il buon umore portino risultati migliori rispetto a un team di campioni egoisti. Di me stesso, la parola che mi descrive meglio è 'eclettico'. Essere una persona del genere mi dà il miglior carburante con cui posso riempire il mio serbatoio: curiosità e nuove sfide tecniche. La mia esperienza estesa e diversificata nella consulenza mi ha anche reso un discreto mediatore."
+  }
+}

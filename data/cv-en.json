@@ -1,0 +1,175 @@
+{
+  "personal": {
+    "name": "Daniele Faieta",
+    "title": "Software Architect & Platform Engineer",
+    "nationality": "Italian",
+    "phone": "(+39) 3200725125",
+    "email": "daniele.faieta@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/danielefaieta",
+    "github": "https://github.com/stormino",
+    "homepage": "https://daniele.onrender.com",
+    "address": "Via Don Lorenzo Milani 42, 38121, Trento, Italy"
+  },
+  "summary": "I've been working professionally in software development for about 20 years, but it has been a lifelong passion. I don't consider myself just a programmer, as I have transitioned from a passion for cybersecurity during my school days to a strong interest in the devops culture and the infrastructural/architectural side of systems. I'm rigorous and attentive to the technical aspects, but I have the necessary sensitivity and experience to understand what is important to develop for the company I work for. I'm driven by curiosity, which makes me a person with interests in all areas, something I consider fundamental to being a better professional.",
+  "experience": [
+    {
+      "period": "04/2023 – Current",
+      "location": "Trento, Italy",
+      "title": "Software Architect, Product Developer",
+      "company": "ThinkIN",
+      "description": "Reporting directly to the CTO, main focuses of my job are:",
+      "highlights": [
+        "Develop new IoT devices integrations such as sensors and digital displays from the edge components to the cloud APIs",
+        "Maintain the IoT cloud platform, based on Scala + AKKA Streams",
+        "Express a technical and architectural vision about new product feature for our IoT cloud platform and discuss them with sales, marketing and product people",
+        "Oversight architectural and development choices about custom vertical solutions based on our cloud platform, tailored for various customer needs",
+        "Mentor interns and junior developers supervising research projects as well as brand new modules built on top of our cloud platform",
+        "Cooperate actively with infrastructure/operations people for support activities"
+      ],
+      "technologies": "Java, Spring Boot, Scala, Docker, Nomad, Consul, git, Python, Node.js, Kafka, Redis, MQTT, MySQL, Cassandra, Elasticsearch, MongoDB"
+    },
+    {
+      "period": "10/2019 – 03/2023",
+      "location": "Remote",
+      "title": "R&D Software Engineer",
+      "company": "expert.ai",
+      "description": "Working as R&D software engineer for Platform engineering cross-functional team.",
+      "highlights": [
+        "Develop scalable and HA services and modules in a large microservices architecture on top of kubernetes clusters, with asynchronous data flows using message brokers as well as classic REST APIs communications for a MLOps platform solution",
+        "Hold code reviews, pair programming sessions and mentoring with junior developers",
+        "Interface with SRE teams to provide feedback for IaC custom tools as well as SDLC pipeline improvements",
+        "Work closely with PO and SM to deliver value meeting quarter releases deadlines",
+        "Study and explore new tools, solutions, approaches to solve technical challenges",
+        "Troubleshooting and support management among tickets for the NLAPI product and Developer portal - meeting SLA requirements"
+      ],
+      "technologies": "Java, Spring Boot, Docker, Kubernetes, git, Node.js, Golang, Kafka, Redis, RabbitMQ, MySQL, Elasticsearch, MongoDB, AWS, Terraform, Bash scripting"
+    },
+    {
+      "period": "03/2018 – 10/2019",
+      "location": "Trento, Italy",
+      "title": "Software Engineer",
+      "company": "Almaviva S.p.A.",
+      "description": "Clients: Trentino Digitale",
+      "highlights": [
+        "SRT: technical leader responsible for integration/porting of legacy modules and golive of the new application; support and incident management, code reviews and delivery of new releases",
+        "A4G: technical reference for the client, leading a team of three. Responsible for new REST/SOAP services development and integration with already existing ones, working remotely with two other teams using LeSS (large scale scrum) agile framework"
+      ],
+      "technologies": "Java, Spring Boot, JPA, Oracle, MSSQL, Angular 5, Jenkins, Git, .NET 4.5, WCF, ASP.NET WebForms"
+    },
+    {
+      "period": "09/2017 – 03/2018",
+      "location": "Trento, Italy",
+      "title": "Software Engineer",
+      "company": "TC Consulting S.r.l.",
+      "description": "Client projects for GPI S.p.A. and Fercam S.p.A.",
+      "highlights": [
+        "Analysis and startup activities management for a module responsible of managing orders and commissions developed in a proprietary environment based on 4GL, leading a team of three",
+        "Technical reference for the client; analysis and development of features and modules for data interchange between systems"
+      ],
+      "technologies": ".NET framework, ASP.NET MVC, WebAPI"
+    },
+    {
+      "period": "09/2016 – 09/2017",
+      "location": "Trento, Italy",
+      "title": "Software Developer",
+      "company": "Geopartner S.r.l.",
+      "description": "Analysis and development of GeoKAT desktop client, a GIS cadastre management client.",
+      "highlights": [],
+      "technologies": ".NET 4.5, WCF, WPF, IoC containers, QGIS, Esri ArcGIS SDK"
+    },
+    {
+      "period": "12/2013 – 09/2016",
+      "location": "Mezzocorona, Italy",
+      "title": "Software Developer",
+      "company": "Wolters Kluwer Italia",
+      "description": "Payroll and HR software development.",
+      "highlights": [
+        "Genya: analysis and development of framework modules and new functionalities to implement payroll integration",
+        "Giotto: analysis and development of new functionalities of a legacy payroll software",
+        "GiottoBudget: analysis and development of a new HR budget application based on existing payroll algorithms and structures"
+      ],
+      "technologies": "C#, .NET framework, jQuery, Entity Framework, MSSQL, Delphi XE11"
+    },
+    {
+      "period": "08/2011 – 12/2013",
+      "location": "Trento, Italy",
+      "title": "Software Developer",
+      "company": "I&T Servizi",
+      "description": "Client: Informatica Trentina - Public administration software development.",
+      "highlights": [
+        "MLC (monitoring of legislative and conferences activity): new features development, reporting",
+        "SGA (students and schools management system): primarily backend WCF services development plus some windows forms development",
+        "FGT (youth fund management): fullstack development",
+        "IOP (employees' portal): development of a module for Oracle WCI portlet container",
+        "SBC (cultural heritage management system): development of a mass import module using advanced WCF features, maintenance of existing features, GIS module implementation, integration with other systems using Biztalk"
+      ],
+      "technologies": "C#, .NET framework, MSSQL, Oracle, BizTalk"
+    },
+    {
+      "period": "12/2005 – 01/2010",
+      "location": "Chieti, Italy",
+      "title": "Software Developer",
+      "company": "Digitalsoft",
+      "description": "Industrial automation and enterprise software development.",
+      "highlights": [
+        "Honeywell Turbo Technologies: Analysis and development of MHS (Material handling system) including core functionalities for managing three-way forklifts operatorless, TAPI module for automatic maintenance call system, SAP integration, visual dashboards for realtime production data",
+        "Tod's: Analysis, development, delivery and golive of 'Scanshops', a set of tools for logistics and warehouse flow handling used by retail shop managers relying on Windows CE barcode scanners",
+        "DelVerde Industrie Alimentari: Analysis, development, delivery and golive of the enterprise warehouse and logistics system",
+        "Giobby: Analysis and development, MySQL and Apache Tomcat cluster configuration with load balancing and HA capabilities"
+      ],
+      "technologies": "C++, C#, VB.NET, MSSQL, Oracle, SAP R/3, Windows CE .NET, Java, MySQL, Apache, Tomcat"
+    }
+  ],
+  "education": [
+    {
+      "period": "1996 – 2001",
+      "location": "Chieti, Italy",
+      "degree": "High School Diploma (Perito Informatico 'Abacus')",
+      "institution": "Istituto Tecnico Industriale 'L. Di Savoia'"
+    },
+    {
+      "period": "09/2009 – 10/2010",
+      "location": "Pescara, Italy",
+      "degree": "English - Level 12 (Threshold - B2)",
+      "institution": "Wall Street Institute"
+    }
+  ],
+  "languages": {
+    "native": "Italian",
+    "other": [
+      {
+        "language": "English",
+        "level": "B2",
+        "listening": "B2",
+        "reading": "B2",
+        "spoken_production": "B2",
+        "spoken_interaction": "B2",
+        "writing": "B2"
+      }
+    ]
+  },
+  "skills": {
+    "technical": [
+      "Java, Spring Boot, Scala",
+      "Docker, Kubernetes, Nomad",
+      "Kafka, Redis, RabbitMQ, MQTT",
+      "MySQL, Cassandra, Elasticsearch, MongoDB",
+      "AWS, Terraform, Infrastructure as Code",
+      "Git, CI/CD, DevOps practices",
+      "Python, Node.js, Golang, Bash scripting",
+      ".NET (C#, ASP.NET, WCF, WPF)"
+    ],
+    "soft": [
+      "Architecture design and technical leadership",
+      "Team mentoring and code reviews",
+      "Cross-functional collaboration",
+      "Agile methodologies (Scrum, LeSS)",
+      "Problem-solving and troubleshooting",
+      "Stakeholder management"
+    ]
+  },
+  "additional": {
+    "memberships": "SAT ordinary member, CAI (Italian Alpine Club) section",
+    "soft_skills_description": "I'm an easy going person that loves establishing a truly strong bond with his team members, as well as members from other teams. I really believe that teamwork and good mood bring better results than a team of selfish champions. About myself, the word that describes me better is 'eclectic'. Being such person gives me the best fuel I can fill my tank with: curiosity and new technical challenges. My extended and diverse experience in consultancy has also made me a quite good mediator."
+  }
+}
