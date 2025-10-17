@@ -1,11 +1,12 @@
 # My Resume Generator
 
-Generate professional resumes in multiple languages automatically using JSON data, LaTeX templates, and GitHub Actions.
+Generate professional resumes in multiple languages automatically using **JSONResume-compatible** data, LaTeX templates, and GitHub Actions.
 
 ## 🚀 Features
 
+- **JSONResume compatible**: Follows the [JSONResume](https://jsonresume.org) standard (v1.0.0) for portable, standardized CV data
 - **Multi-language support**: Currently English and Italian
-- **JSON-based data**: Easy to maintain and update
+- **JSON-based data**: Easy to maintain and update with a standard format
 - **Professional LaTeX template**: Based on Awesome-CV
 - **Automated builds**: GitHub Actions generates PDFs on every push
 - **Version control**: Create tagged releases for permanent CV versions
@@ -41,21 +42,41 @@ cd my-resume-generator
 
 ### 2. Edit Your CV Data
 
-Update `data/cv-en.json` and `data/cv-it.json` with your information:
+Update `data/cv-en.json` and `data/cv-it.json` with your information following the [JSONResume schema](https://jsonresume.org/schema):
 
 ```json
 {
-  "personal": {
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
     "name": "Your Name",
-    "title": "Your Title",
+    "label": "Your Title",
     "email": "your.email@example.com",
-    ...
+    "phone": "+1234567890",
+    "url": "https://yourwebsite.com",
+    "summary": "Professional summary...",
+    "location": {
+      "address": "123 Main St",
+      "postalCode": "12345",
+      "city": "City",
+      "countryCode": "US",
+      "region": "State"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yourusername",
+        "url": "https://linkedin.com/in/yourusername"
+      }
+    ]
   },
-  "experience": [...],
+  "work": [...],
   "education": [...],
-  ...
+  "skills": [...],
+  "languages": [...]
 }
 ```
+
+See the [JSONResume schema documentation](https://jsonresume.org/schema) for all available fields.
 
 ### 3. Test Locally (Optional)
 

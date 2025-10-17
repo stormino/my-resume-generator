@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an automated resume generator that creates professional PDFs from JSON data using LaTeX templates. The system supports multiple languages (English and Italian) and uses Docker for consistent LaTeX compilation across environments.
+This is an automated resume generator that creates professional PDFs from **JSONResume-compatible** data using LaTeX templates. The system supports multiple languages (English and Italian) and uses Docker for consistent LaTeX compilation across environments.
+
+### JSONResume Compatibility
+
+This project follows the [JSONResume](https://jsonresume.org) standard (v1.0.0), making CV data portable and compatible with other JSONResume tools and themes.
 
 ## Core Architecture
 
@@ -55,12 +59,24 @@ cat output/cv-it.log
 
 ## Key Components
 
-### JSON Data Structure
-- `personal`: Contact information and basic details
-- `summary`: Professional summary/bio
-- `experience`: Array of work experience entries with highlights and technologies
-- `education`: Educational background
-- `skills`: Technical and soft skills categorized
+### JSON Data Structure (JSONResume Format)
+The CV data follows the JSONResume schema (https://jsonresume.org/schema):
+
+- `$schema`: JSONResume schema version reference
+- `basics`: Personal information, contact details, location, and social profiles
+  - `name`, `label`, `email`, `phone`, `url`, `summary`
+  - `location`: nested object with address, postalCode, city, countryCode, region
+  - `profiles[]`: array of social profiles (LinkedIn, GitHub, etc.)
+- `work[]`: Array of work experience with ISO 8601 dates
+  - `name`, `position`, `startDate`, `endDate`, `summary`, `highlights[]`, `keywords[]`, `location`
+- `education[]`: Educational background with ISO 8601 dates
+  - `institution`, `area`, `studyType`, `startDate`, `endDate`, `location`
+- `skills[]`: Skills grouped by category with proficiency levels
+  - `name`, `level`, `keywords[]`
+- `languages[]`: Language proficiencies
+- `interests[]`: Personal interests
+- `volunteer[]`, `awards[]`, `certificates[]`, `publications[]`, `references[]`, `projects[]`: Optional sections
+- `meta`: Metadata including nationality and last modified date
 
 ### Configuration System
 The `config.yaml` file controls:
@@ -97,9 +113,14 @@ GitHub Actions workflow (`.github/workflows/build-cv.yml`):
 - Use `config.yaml` for standard customizations (colors, fonts, margins)
 
 ### JSON Data Updates
-- Follow the existing structure when adding new fields
+- Follow the JSONResume schema (v1.0.0) when adding new fields
+- Use ISO 8601 date format (YYYY-MM-DD) for all dates
+- Use `keywords[]` arrays instead of comma-separated technology strings
+- Omit optional fields if empty rather than using empty strings
+- LinkedIn and GitHub are specified in `basics.profiles[]` array
 - Ensure proper LaTeX character escaping is handled by the generator
 - Test with both languages to ensure consistency
+- Validate JSON against schema: https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
 
 ## Dependencies
 
