@@ -178,7 +178,11 @@ def generate_cv(json_file, output_dir, lang='en'):
     cv_content = cv_content.replace('{{ADDRESS}}', escape_latex(personal['address']))
     cv_content = cv_content.replace('{{PHONE}}', escape_latex(personal['phone']))
     cv_content = cv_content.replace('{{EMAIL}}', escape_latex(personal['email']))
-    cv_content = cv_content.replace('{{LINKEDIN}}', personal['linkedin'])
+
+    # Extract LinkedIn username from URL
+    linkedin_url = personal.get('linkedin', '')
+    linkedin_username = linkedin_url.split('/')[-1] if linkedin_url else ''
+    cv_content = cv_content.replace('{{LINKEDIN}}', linkedin_username)
 
     # Extract GitHub username from URL
     github_url = personal.get('github', '')
