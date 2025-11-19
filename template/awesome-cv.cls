@@ -121,9 +121,12 @@
       \ifdef{\@address}{\mbox{\faIcon{map-marker-alt}\ \@address} \quad}{}
       \ifdef{\@mobile}{\mbox{\faIcon{mobile-alt}\ \@mobile} \quad}{}
       \ifdef{\@email}{\mbox{\faIcon{envelope}\ \href{mailto:\@email}{\@email}} \quad}{}
-      \ifdef{\@homepage}{\mbox{\faIcon{globe}\ \href{\@homepage}{\@homepage}} \quad}{}
-      \ifdef{\@linkedin}{\mbox{\faIcon{linkedin}\ \href{https://linkedin.com/in/\@linkedin}{\@linkedin}} \quad}{}
-      \ifdef{\@github}{\mbox{\faIcon{github}\ \href{https://github.com/\@github}{\@github}}}{}
+      \ifdef{\@homepage}{\mbox{\faIcon{globe}\ \href{\@homepage}{\@homepage}}}{}
+    }
+    \\[0.5em]
+    {\color{graytext}\small
+      \ifdef{\@linkedin}{\mbox{\faIcon{linkedin}\ \href{https://linkedin.com/in/\@linkedin}{https://linkedin.com/in/\@linkedin}} \quad}{}
+      \ifdef{\@github}{\mbox{\faIcon{github}\ \href{https://github.com/\@github}{https://github.com/\@github}}}{}
     }
   \end{center}
   \vspace{1em}
@@ -179,9 +182,11 @@
       {\color{graytext}\textit{#2}} & {\color{graytext}\small #3} \\
     \end{tabularx}
     \ifx&#5&\else
-      \vspace{1.0mm}
-      \color{graytext}
-      #5
+      \vspace{2.0mm}
+      \begin{minipage}[t]{\textwidth}
+        {\color{text}\small #5\par}
+      \end{minipage}
+      \vspace{0.5mm}
     \fi
     \ifx&#6&\else
       \vspace{1.5mm}
@@ -200,9 +205,11 @@
       {\color{graytext}\textit{#2}} & {\color{graytext}\small #3} \\
     \end{tabularx}
     \ifx&#5&\else
-      \vspace{1.0mm}
-      \color{graytext}
-      #5
+      \vspace{2.0mm}
+      \begin{minipage}[t]{\textwidth}
+        {\color{text}\small #5\par}
+      \end{minipage}
+      \vspace{0.5mm}
     \fi
     \end{samepage}
 }
@@ -234,7 +241,7 @@
 % Skills entry
 \newcommand{\cvskills}[2]{
   \item
-    \begin{tabularx}{\textwidth}{@{}p{4.5cm}@{\hspace{0.5em}}X@{}}
+    \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.5cm}@{\hspace{0.5em}}X@{}}
       {\color{text}\textbf{#1}} & {\color{graytext}\small #2}
     \end{tabularx}
 }

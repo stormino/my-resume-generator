@@ -193,7 +193,7 @@ def generate_cv(json_file, output_dir, lang='en'):
             'experience': 'Esperienza',
             'education': 'Istruzione',
             'skills': 'Competenze',
-            'languages': 'Lingue',
+            'lingue': 'Lingue',
             'additional': 'Informazioni Aggiuntive'
         }
 

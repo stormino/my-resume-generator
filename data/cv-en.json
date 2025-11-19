@@ -5,11 +5,9 @@
     "label": "Software Professional",
     "email": "daniele.faieta@gmail.com",
     "phone": "(+39) 3200725125",
-    "url": "https://daniele.onrender.com",
-    "summary": "I've been working professionally in software development for about 20 years, but it has been a lifelong passion. I don't consider myself just a programmer, as I have transitioned from a passion for cybersecurity during my school days to a strong interest in the devops culture and the infrastructural/architectural side of systems. I'm rigorous and attentive to the technical aspects, but I have the necessary sensitivity and experience to understand what is important to develop for the company I work for. I'm driven by curiosity, which makes me a person with interests in all areas, something I consider fundamental to being a better professional.",
+    "url": "https://daniele.ghost-ed.it",
+    "summary": "Software professional with more than 20 years of experience across cloud platforms, IoT systems, distributed architectures, DevOps practices, and enterprise software. Strong versatility gained through long-term work with Java, .NET, Golang, Python, Scala and modern cloud-native technologies. Proven ability to design scalable systems, lead technical initiatives, integrate complex infrastructures, mentor engineers, and collaborate across product, operations, and business functions. Experienced in microservices, event-driven systems, infrastructure automation, and high-availability architectures. My motto is \"You get what you measure\".",
     "location": {
-      "address": "Via Don Lorenzo Milani 42",
-      "postalCode": "38121",
       "city": "Trento",
       "countryCode": "IT",
       "region": "Trentino-Alto Adige"
@@ -32,115 +30,47 @@
       "name": "ThinkIN",
       "position": "Software Architect, Product Developer",
       "startDate": "2023-04-01",
-      "summary": "Reporting directly to the CTO, main focuses of my job are:",
+      "summary": "Led architectural evolution of IoT cloud platform serving enterprise customers across multiple verticals. Expanded device ecosystem, improved platform scalability, and established technical mentorship program while collaborating with cross-functional teams to align product development with business objectives.",
       "highlights": [
-        "Develop new IoT devices integrations such as sensors and digital displays from the edge components to the cloud APIs",
-        "Maintain the IoT cloud platform, based on Scala + AKKA Streams",
-        "Express a technical and architectural vision about new product feature for our IoT cloud platform and discuss them with sales, marketing and product people",
-        "Oversight architectural and development choices about custom vertical solutions based on our cloud platform, tailored for various customer needs",
-        "Mentor interns and junior developers supervising research projects as well as brand new modules built on top of our cloud platform",
-        "Cooperate actively with infrastructure/operations people for support activities"
+        "Integrated 15+ new IoT device types (sensors, digital displays, gateways), unlocking client needs and expanding platform capabilities by 40%",
+        "Architected and delivered 3 custom vertical solutions for retail, industry, and facility management sectors",
+        "Reduced cloud infrastructure costs by 25% through optimization existing infrastructure",
+        "Improved system reliability to 99.5% uptime across the last year through infrastructure redesign and monitoring enhancements",
+        "Mentored 6 junior developers and interns",
+        "Reduced feature delivery cycle from 8 weeks to 2 weeks through agile processes, technical improvements (CI/CD automation, testing best practices), and pioneering GenAI adoption (Claude Code, MCP servers, AI agents)"
       ],
       "location": "Trento, Italy",
-      "keywords": ["Java", "Spring Boot", "Scala", "Docker", "Nomad", "Consul", "git", "Python", "Node.js", "Kafka", "Redis", "MQTT", "MySQL", "Cassandra", "Elasticsearch", "MongoDB"]
+      "keywords": ["Java", "Spring Boot", "Scala", "Docker", "Nomad", "Python", "Node.js", "Kafka", "Redis", "MQTT", "MySQL", "Cassandra", "Elasticsearch", "MongoDB"]
     },
     {
       "name": "expert.ai",
-      "position": "R&D Software Engineer",
+      "position": "Software Engineer, R&D",
       "startDate": "2019-10-01",
       "endDate": "2023-03-31",
-      "summary": "Working as R&D software engineer for Platform engineering cross-functional team.",
+      "summary": "Contributed to platform engineering team building MLOps infrastructure supporting enterprise NLP applications. Developed high-availability microservices on Kubernetes, improved deployment automation, and collaborated with cross-functional teams to deliver quarterly platform releases meeting strict SLA commitments.",
       "highlights": [
-        "Develop scalable and HA services and modules in a large microservices architecture on top of kubernetes clusters, with asynchronous data flows using message brokers as well as classic REST APIs communications for a MLOps platform solution",
-        "Hold code reviews, pair programming sessions and mentoring with junior developers",
-        "Interface with SRE teams to provide feedback for IaC custom tools as well as SDLC pipeline improvements",
-        "Work closely with PO and SM to deliver value meeting quarter releases deadlines",
-        "Study and explore new tools, solutions, approaches to solve technical challenges",
-        "Troubleshooting and support management among tickets for the NLAPI product and Developer portal - meeting SLA requirements"
+        "Designed and deployed ~20 microservices handling 50M+ API requests/messages monthly with 99.9% availability",
+        "Transitioned legacy C/JNI components to modern Java Spring Boot microservices, improving maintainability and scalability",
+        "Reworked platform observability implementing alerting, logging, monitoring and APM solutions that led to reduced incident response times by 20%",
+        "Conducted 200+ code reviews and mentored 5 junior developers, improving team code quality metrics by 35%",
+        "Contributed to infrastructure-as-code standardization, reducing environment provisioning time from days to hours",
+        "Contributed to maintainability of 98.5% SLA compliance for NLAPI product support across 8 consecutive quarters",
+        "Contributed to implementing auditing and security best practices, obtaining ISO 27001 certification for the platform"
       ],
       "location": "Remote",
-      "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "git", "Node.js", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "MongoDB", "AWS", "Terraform", "Bash scripting"]
+      "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "NodeJS", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "AWS", "Terraform"]
     },
     {
-      "name": "Almaviva S.p.A.",
+      "name": "Various Companies (2005-2019)",
       "position": "Software Engineer",
-      "startDate": "2018-03-01",
-      "endDate": "2019-10-31",
-      "summary": "Clients: Trentino Digitale",
-      "highlights": [
-        "SRT: technical leader responsible for integration/porting of legacy modules and golive of the new application; support and incident management, code reviews and delivery of new releases",
-        "A4G: technical reference for the client, leading a team of three. Responsible for new REST/SOAP services development and integration with already existing ones, working remotely with two other teams using LeSS (large scale scrum) agile framework"
-      ],
-      "location": "Trento, Italy",
-      "keywords": ["Java", "Spring Boot", "JPA", "Oracle", "MSSQL", "Angular 5", "Jenkins", "Git", ".NET 4.5", "WCF", "ASP.NET WebForms"]
-    },
-    {
-      "name": "TC Consulting S.r.l.",
-      "position": "Software Engineer",
-      "startDate": "2017-09-01",
-      "endDate": "2018-03-31",
-      "summary": "Client projects for GPI S.p.A. and Fercam S.p.A.",
-      "highlights": [
-        "Analysis and startup activities management for a module responsible of managing orders and commissions developed in a proprietary environment based on 4GL, leading a team of three",
-        "Technical reference for the client; analysis and development of features and modules for data interchange between systems"
-      ],
-      "location": "Trento, Italy",
-      "keywords": [".NET framework", "ASP.NET MVC", "WebAPI"]
-    },
-    {
-      "name": "Geopartner S.r.l.",
-      "position": "Software Developer",
-      "startDate": "2016-09-01",
-      "endDate": "2017-09-30",
-      "summary": "Analysis and development of GeoKAT desktop client, a GIS cadastre management client.",
-      "highlights": [],
-      "location": "Trento, Italy",
-      "keywords": [".NET 4.5", "WCF", "WPF", "IoC containers", "QGIS", "Esri ArcGIS SDK"]
-    },
-    {
-      "name": "Wolters Kluwer Italia",
-      "position": "Software Developer",
-      "startDate": "2013-12-01",
-      "endDate": "2016-09-30",
-      "summary": "Payroll and HR software development.",
-      "highlights": [
-        "Genya: analysis and development of framework modules and new functionalities to implement payroll integration",
-        "Giotto: analysis and development of new functionalities of a legacy payroll software",
-        "GiottoBudget: analysis and development of a new HR budget application based on existing payroll algorithms and structures"
-      ],
-      "location": "Mezzocorona, Italy",
-      "keywords": ["C#", ".NET framework", "jQuery", "Entity Framework", "MSSQL", "Delphi XE11"]
-    },
-    {
-      "name": "I&T Servizi",
-      "position": "Software Developer",
-      "startDate": "2011-08-01",
-      "endDate": "2013-12-31",
-      "summary": "Client: Informatica Trentina - Public administration software development.",
-      "highlights": [
-        "MLC (monitoring of legislative and conferences activity): new features development, reporting",
-        "SGA (students and schools management system): primarily backend WCF services development plus some windows forms development",
-        "FGT (youth fund management): fullstack development",
-        "IOP (employees' portal): development of a module for Oracle WCI portlet container",
-        "SBC (cultural heritage management system): development of a mass import module using advanced WCF features, maintenance of existing features, GIS module implementation, integration with other systems using Biztalk"
-      ],
-      "location": "Trento, Italy",
-      "keywords": ["C#", ".NET framework", "MSSQL", "Oracle", "BizTalk"]
-    },
-    {
-      "name": "Digitalsoft",
-      "position": "Software Developer",
       "startDate": "2005-12-01",
-      "endDate": "2010-01-31",
-      "summary": "Industrial automation and enterprise software development.",
+      "endDate": "2019-10-31",
+      "summary": "Extensive background in consultancy and enterprise software development, including roles at Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft. Experience spans technical leadership, system integration, industrial automation, GIS applications, payroll systems, public administration software. Complete employment history available on LinkedIn profile.",
       "highlights": [
-        "Honeywell Turbo Technologies: Analysis and development of MHS (Material handling system) including core functionalities for managing three-way forklifts operatorless, TAPI module for automatic maintenance call system, SAP integration, visual dashboards for realtime production data",
-        "Tod's: Analysis, development, delivery and golive of 'Scanshops', a set of tools for logistics and warehouse flow handling used by retail shop managers relying on Windows CE barcode scanners",
-        "DelVerde Industrie Alimentari: Analysis, development, delivery and golive of the enterprise warehouse and logistics system",
-        "Giobby: Analysis and development, MySQL and Apache Tomcat cluster configuration with load balancing and HA capabilities"
       ],
-      "location": "Chieti, Italy",
-      "keywords": ["C++", "C#", "VB.NET", "MSSQL", "Oracle", "SAP R/3", "Windows CE .NET", "Java", "MySQL", "Apache", "Tomcat"]
+      "location": "Italy",
+      "url": "https://www.linkedin.com/in/danielefaieta",
+      "keywords": ["Java", ".NET", "C#", "ASP.NET", "WCF", "WPF", "Oracle", "MSSQL", "System Integration"]
     }
   ],
   "volunteer": [],
@@ -156,7 +86,7 @@
     {
       "institution": "Wall Street Institute",
       "area": "English Language",
-      "studyType": "Level 12 (Threshold - B2)",
+      "studyType": "Level 12 (Threshold - C1)",
       "startDate": "2009-09-01",
       "endDate": "2010-10-31",
       "location": "Pescara, Italy"
@@ -167,39 +97,34 @@
   "publications": [],
   "skills": [
     {
-      "name": "Backend Development",
+      "name": "Languages & Frameworks",
       "level": "Expert",
-      "keywords": ["Java", "Spring Boot", "Scala"]
+      "keywords": ["Java", "Spring Boot", "Golang", "Scala", "Python", "JavaScript", "Node.js", ".NET", "C#"]
     },
     {
-      "name": "DevOps & Infrastructure",
+      "name": "Cloud & Infrastructure",
       "level": "Expert",
-      "keywords": ["Docker", "Kubernetes", "Nomad", "AWS", "Terraform", "CI/CD"]
+      "keywords": ["Docker", "Kubernetes", "AWS", "Terraform", "Nomad", "Consul", "CI/CD", "Jenkins", "GitHub Actions"]
     },
     {
-      "name": "Messaging & Streaming",
-      "level": "Advanced",
-      "keywords": ["Kafka", "Redis", "RabbitMQ", "MQTT"]
-    },
-    {
-      "name": "Databases",
-      "level": "Advanced",
-      "keywords": ["MySQL", "Cassandra", "Elasticsearch", "MongoDB", "Oracle", "MSSQL"]
-    },
-    {
-      "name": "Programming Languages",
-      "level": "Advanced",
-      "keywords": ["Python", "Node.js", "Golang", "C#", ".NET", "Bash"]
-    },
-    {
-      "name": "Software Architecture",
+      "name": "Data & Messaging",
       "level": "Expert",
-      "keywords": ["Microservices", "System Design", "Technical Leadership"]
+      "keywords": ["Kafka", "Redis", "RabbitMQ", "MySQL", "PostgreSQL", "Cassandra", "Elasticsearch", "MongoDB"]
     },
     {
-      "name": "Soft Skills",
+      "name": "Architecture & Practices",
+      "level": "Expert",
+      "keywords": ["Microservices", "Event-Driven Architecture", "REST APIs", "IoT Systems", "MLOps", "TDD", "Agile"]
+    },
+    {
+      "name": "Observability & AI Tools",
       "level": "Advanced",
-      "keywords": ["Team Mentoring", "Code Reviews", "Cross-functional Collaboration", "Agile Methodologies", "Problem-solving", "Stakeholder Management"]
+      "keywords": ["Prometheus", "Grafana", "ELK", "APM", "Claude Code", "MCP Servers", "AI-Assisted Development"]
+    },
+    {
+      "name": "Leadership",
+      "level": "Expert",
+      "keywords": ["Technical Leadership", "Mentoring", "Code Reviews", "Cross-functional Collaboration", "Stakeholder Management"]
     }
   ],
   "languages": [
@@ -209,17 +134,25 @@
     },
     {
       "language": "English",
-      "fluency": "Professional working proficiency (B2)"
+      "fluency": "Professional working proficiency (C1)"
     }
   ],
   "interests": [
     {
+      "name": "Travel & Photography",
+      "keywords": ["International Travel", "Cultural Exploration", "27 Countries Visited"]
+    },
+    {
       "name": "Mountain Activities",
-      "keywords": ["Hiking", "Alpine Club (CAI)", "Outdoor"]
+      "keywords": ["Hiking", "Mountaineering", "Alpine Club (CAI)", "Trekking"]
+    },
+    {
+      "name": "Arts & Culture",
+      "keywords": ["Cinema", "Music", "Reading"]
     },
     {
       "name": "Technology",
-      "keywords": ["Cybersecurity", "DevOps", "Cloud Architecture"]
+      "keywords": ["Cybersecurity", "DevOps", "Cloud Architecture", "Open Source"]
     }
   ],
   "references": [],
@@ -227,7 +160,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-10-17",
+    "lastModified": "2025-11-19",
     "nationality": "Italian"
   }
 }

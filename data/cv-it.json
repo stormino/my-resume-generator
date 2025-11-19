@@ -2,14 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Daniele Faieta",
-    "label": "Software Professional",
+    "label": "Professionista Software",
     "email": "daniele.faieta@gmail.com",
     "phone": "(+39) 3200725125",
-    "url": "https://daniele.onrender.com",
-    "summary": "Lavoro professionalmente nello sviluppo software da circa 20 anni, ma è stata una passione per tutta la vita. Non mi considero solo un programmatore, essendomi evoluto da una passione per la cybersecurity durante gli anni scolastici a un forte interesse per la cultura devops e il lato infrastrutturale/architetturale dei sistemi. Sono rigoroso e attento agli aspetti tecnici, ma ho la necessaria sensibilità ed esperienza per comprendere cosa è importante sviluppare per l'azienda per cui lavoro. Sono guidato dalla curiosità, che mi rende una persona con interessi in tutti gli ambiti, qualcosa che considero fondamentale per essere un professionista migliore.",
+    "url": "https://daniele.ghost-ed.it",
+    "summary": "Professionista software con oltre 20 anni di esperienza su piattaforme cloud, sistemi IoT, architetture distribuite, pratiche DevOps e software enterprise. Forte versatilità acquisita attraverso il lavoro a lungo termine con Java, .NET, Golang, Python, Scala e moderne tecnologie cloud-native. Comprovata capacità di progettare sistemi scalabili, guidare iniziative tecniche, integrare infrastrutture complesse, fare mentoring agli ingegneri e collaborare con le funzioni di prodotto, operations e business. Esperienza in microservizi, sistemi event-driven, automazione dell'infrastruttura e architetture ad alta disponibilità. Il mio motto è \"Si ottiene ciò che si misura\".",
     "location": {
-      "address": "Via Don Lorenzo Milani 42",
-      "postalCode": "38121",
       "city": "Trento",
       "countryCode": "IT",
       "region": "Trentino-Alto Adige"
@@ -32,115 +30,47 @@
       "name": "ThinkIN",
       "position": "Software Architect, Product Developer",
       "startDate": "2023-04-01",
-      "summary": "Riportando direttamente al CTO, i principali focus del mio lavoro sono:",
+      "summary": "Ho guidato l'evoluzione architetturale della piattaforma cloud IoT verso la verticalizzazione per alcuni clienti. Ho implementato la gestione di nuovi dispositivi, migliorato la scalabilità della piattaforma e implementato un programma di mentoring collaborando con altre figure non tecniche per allineare lo sviluppo del prodotto con gli obiettivi di business.",
       "highlights": [
-        "Sviluppare nuove integrazioni di dispositivi IoT come sensori e display digitali dai componenti edge alle API cloud",
-        "Mantenere la piattaforma cloud IoT, basata su Scala + AKKA Streams",
-        "Esprimere una visione tecnica e architetturale sulle nuove funzionalità del prodotto per la nostra piattaforma cloud IoT e discuterle con le persone di sales, marketing e prodotto",
-        "Supervisione delle scelte architetturali e di sviluppo relative a soluzioni verticali personalizzate basate sulla nostra piattaforma cloud, adattate alle varie esigenze dei clienti",
-        "Mentoring di stagisti e sviluppatori junior supervisionando progetti di ricerca e nuovi moduli costruiti sulla nostra piattaforma cloud",
-        "Cooperare attivamente con le persone dell'infrastruttura/operations per attività di supporto"
+        "Integrazione di oltre 15 nuovi tipi di dispositivi IoT (sensori, display digitali, gateway), sbloccando le esigenze dei clienti ed espandendo le capacità della piattaforma del 40%",
+        "Progettate e consegnate 3 soluzioni verticali personalizzate per i settori retail, industria e facility management",
+        "Ridotti i costi dell'infrastruttura cloud del 25% attraverso l'ottimizzazione dell'infrastruttura esistente",
+        "Migliorata l'affidabilità della piattaforma cloud al 99,5% di uptime nell'ultimo anno attraverso il refactoring di dell'infrastruttura esistente e l'efficientamento monitoraggio",
+        "Condotto attività mentoring a 6 sviluppatori junior e stagisti",
+        "Ridotto il ciclo di delivery delle funzionalità da 8 settimane a 2 settimane implementando gestione agile, miglioramenti tecnici (automazione CI/CD, best practice di testing) e adozione di GenAI (Claude Code, Server MCP, agents)"
       ],
       "location": "Trento, Italia",
-      "keywords": ["Java", "Spring Boot", "Scala", "Docker", "Nomad", "Consul", "git", "Python", "Node.js", "Kafka", "Redis", "MQTT", "MySQL", "Cassandra", "Elasticsearch", "MongoDB"]
+      "keywords": ["Java", "Spring Boot", "Scala", "Docker", "Nomad", "Python", "Node.js", "Kafka", "Redis", "MQTT", "MySQL", "Cassandra", "Elasticsearch", "MongoDB"]
     },
     {
       "name": "expert.ai",
-      "position": "R&D Software Engineer",
+      "position": "Software Engineer, R&D",
       "startDate": "2019-10-01",
       "endDate": "2023-03-31",
-      "summary": "Lavoro come ingegnere software R&D per il team cross-funzionale Platform engineering.",
+      "summary": "Ho contribuito al team di platform engineering progettando e costruendo l'infrastruttura MLOps a supporto di applicazioni NLP enterprise. Ho sviluppato microservizi high availability e scalabili su Kubernetes, migliorato l'automazione e collaborato con team cross-functional per la delivery di rilasci trimestrali della piattaforma.",
       "highlights": [
-        "Sviluppare servizi e moduli scalabili e ad alta disponibilità in una grande architettura a microservizi su cluster kubernetes, con flussi di dati asincroni utilizzando message broker e comunicazioni REST API classiche per una soluzione piattaforma MLOps",
-        "Condurre code review, sessioni di pair programming e mentoring con sviluppatori junior",
-        "Interfacciarsi con i team SRE per fornire feedback su strumenti IaC personalizzati e miglioramenti della pipeline SDLC",
-        "Lavorare a stretto contatto con PO e SM per fornire valore rispettando le scadenze di rilascio trimestrali",
-        "Studiare ed esplorare nuovi strumenti, soluzioni, approcci per risolvere sfide tecniche",
-        "Troubleshooting e gestione del supporto tra i ticket per il prodotto NLAPI e il portale per sviluppatori - rispettando i requisiti SLA"
+        "Sviluppo e delivery di ~20 microservizi scalabili, high availability in grado di gestire oltre 50 milioni di richieste API/messaggi al mese",
+        "Migrazione di componenti legacy C/JNI verso microservizi Java Spring Boot, migliorando manutenibilità e scalabilità",
+        "Riprogettata l'osservabilità della piattaforma implementando soluzioni di alerting, logging, monitoring e APM che hanno portato a una riduzione del 20% dei tempi di risposta agli incidenti",
+        "Condotte oltre 200 code review e fatto mentoring a 5 sviluppatori junior, migliorando le metriche di qualità del codice del team del 35%",
+        "Contributo alla standardizzazione dell'infrastruttura cloud con IaC, riducendo i tempi di provisioning degli ambienti da giorni a ore",
+        "Contributo al mantenimento della conformità SLA del 98,5% per il supporto del prodotto NLAPI in 8 trimestri consecutivi",
+        "Contributo all'implementazione di best practice di auditing e sicurezza, ottenendo la certificazione ISO 27001 per la piattaforma"
       ],
       "location": "Remoto",
-      "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "git", "Node.js", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "MongoDB", "AWS", "Terraform", "Bash scripting"]
+      "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "NodeJS", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "AWS", "Terraform"]
     },
     {
-      "name": "Almaviva S.p.A.",
+      "name": "Varie Aziende (2005-2019)",
       "position": "Software Engineer",
-      "startDate": "2018-03-01",
-      "endDate": "2019-10-31",
-      "summary": "Clienti: Trentino Digitale",
-      "highlights": [
-        "SRT: technical leader responsabile dell'integrazione/porting di moduli legacy e golive della nuova applicazione; gestione del supporto e degli incident, code review e rilascio di nuove release",
-        "A4G: riferimento tecnico per il cliente, a capo di un team di tre persone. Responsabile dello sviluppo di nuovi servizi REST/SOAP e integrazione con quelli già esistenti, lavorando da remoto con altri due team utilizzando il framework agile LeSS (large scale scrum)"
-      ],
-      "location": "Trento, Italia",
-      "keywords": ["Java", "Spring Boot", "JPA", "Oracle", "MSSQL", "Angular 5", "Jenkins", "Git", ".NET 4.5", "WCF", "ASP.NET WebForms"]
-    },
-    {
-      "name": "TC Consulting S.r.l.",
-      "position": "Software Engineer",
-      "startDate": "2017-09-01",
-      "endDate": "2018-03-31",
-      "summary": "Progetti clienti per GPI S.p.A. e Fercam S.p.A.",
-      "highlights": [
-        "Analisi e gestione delle attività di avvio per un modulo responsabile della gestione di ordini e commissioni sviluppato in un ambiente proprietario basato su 4GL, a capo di un team di tre persone",
-        "Riferimento tecnico per il cliente; analisi e sviluppo di funzionalità e moduli per lo scambio dati tra sistemi"
-      ],
-      "location": "Trento, Italia",
-      "keywords": [".NET framework", "ASP.NET MVC", "WebAPI"]
-    },
-    {
-      "name": "Geopartner S.r.l.",
-      "position": "Software Developer",
-      "startDate": "2016-09-01",
-      "endDate": "2017-09-30",
-      "summary": "Analisi e sviluppo del client desktop GeoKAT, un client GIS per la gestione del catasto.",
-      "highlights": [],
-      "location": "Trento, Italia",
-      "keywords": [".NET 4.5", "WCF", "WPF", "IoC containers", "QGIS", "Esri ArcGIS SDK"]
-    },
-    {
-      "name": "Wolters Kluwer Italia",
-      "position": "Software Developer",
-      "startDate": "2013-12-01",
-      "endDate": "2016-09-30",
-      "summary": "Sviluppo software per gestione paghe e risorse umane.",
-      "highlights": [
-        "Genya: analisi e sviluppo di moduli framework e nuove funzionalità per implementare l'integrazione delle paghe",
-        "Giotto: analisi e sviluppo di nuove funzionalità di un software paghe legacy",
-        "GiottoBudget: analisi e sviluppo di una nuova applicazione per il budget HR basata su algoritmi e strutture paghe esistenti"
-      ],
-      "location": "Mezzocorona, Italia",
-      "keywords": ["C#", ".NET framework", "jQuery", "Entity Framework", "MSSQL", "Delphi XE11"]
-    },
-    {
-      "name": "I&T Servizi",
-      "position": "Software Developer",
-      "startDate": "2011-08-01",
-      "endDate": "2013-12-31",
-      "summary": "Cliente: Informatica Trentina - Sviluppo software per pubblica amministrazione.",
-      "highlights": [
-        "MLC (monitoraggio attività legislative e conferenze): sviluppo nuove funzionalità, reportistica",
-        "SGA (sistema di gestione studenti e scuole): principalmente sviluppo servizi backend WCF più alcune applicazioni windows forms",
-        "FGT (gestione fondo giovani): sviluppo fullstack",
-        "IOP (portale dipendenti): sviluppo di un modulo per container portlet Oracle WCI",
-        "SBC (sistema gestione beni culturali): sviluppo di un modulo di importazione massiva usando funzionalità WCF avanzate, manutenzione funzionalità esistenti, implementazione modulo GIS, integrazione con altri sistemi usando Biztalk"
-      ],
-      "location": "Trento, Italia",
-      "keywords": ["C#", ".NET framework", "MSSQL", "Oracle", "BizTalk"]
-    },
-    {
-      "name": "Digitalsoft",
-      "position": "Software Developer",
       "startDate": "2005-12-01",
-      "endDate": "2010-01-31",
-      "summary": "Automazione industriale e sviluppo software enterprise.",
+      "endDate": "2019-10-31",
+      "summary": "Ampio background nella consulenza e nello sviluppo software enterprise. Ho lavorato per aziende quali ad esempio Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft. L'esperienza spazia dalla leadership tecnica, integrazione di sistemi, automazione industriale, applicazioni GIS, sistemi payroll, software per pubblica amministrazione. Lo storico lavorativo completo è disponibile sul profilo LinkedIn.",
       "highlights": [
-        "Honeywell Turbo Technologies: Analisi e sviluppo di MHS (Material handling system) incluse funzionalità core per la gestione di carrelli elevatori trilaterali senza operatore, modulo TAPI per sistema di chiamata manutenzione automatica, integrazione SAP, dashboard visive per dati di produzione in tempo reale",
-        "Tod's: Analisi, sviluppo, consegna e golive di 'Scanshops', un set di strumenti per la gestione della logistica e dei flussi di magazzino utilizzati dai gestori dei negozi al dettaglio basati su scanner barcode Windows CE",
-        "DelVerde Industrie Alimentari: Analisi, sviluppo, consegna e golive del sistema di magazzino e logistica aziendale",
-        "Giobby: Analisi e sviluppo, configurazione cluster MySQL e Apache Tomcat con capacità di load balancing e HA"
       ],
-      "location": "Chieti, Italia",
-      "keywords": ["C++", "C#", "VB.NET", "MSSQL", "Oracle", "SAP R/3", "Windows CE .NET", "Java", "MySQL", "Apache", "Tomcat"]
+      "location": "Italia",
+      "url": "https://www.linkedin.com/in/danielefaieta",
+      "keywords": ["Java", ".NET", "C#", "ASP.NET", "WCF", "WPF", "Oracle", "MSSQL", "Integrazione di Sistemi"]
     }
   ],
   "volunteer": [],
@@ -156,7 +86,7 @@
     {
       "institution": "Wall Street Institute",
       "area": "Lingua Inglese",
-      "studyType": "Livello 12 (Threshold - B2)",
+      "studyType": "Livello 12 (Threshold - C1)",
       "startDate": "2009-09-01",
       "endDate": "2010-10-31",
       "location": "Pescara, Italia"
@@ -167,39 +97,34 @@
   "publications": [],
   "skills": [
     {
-      "name": "Sviluppo Backend",
+      "name": "Linguaggi & Framework",
       "level": "Esperto",
-      "keywords": ["Java", "Spring Boot", "Scala"]
+      "keywords": ["Java", "Spring Boot", "Golang", "Scala", "Python", "JavaScript", "Node.js", ".NET", "C#"]
     },
     {
-      "name": "DevOps e Infrastruttura",
+      "name": "DevOps & Infrastruttura",
       "level": "Esperto",
-      "keywords": ["Docker", "Kubernetes", "Nomad", "AWS", "Terraform", "CI/CD"]
+      "keywords": ["Docker", "Kubernetes", "AWS", "Terraform", "Nomad", "Consul", "CI/CD", "Jenkins", "GitHub Actions"]
     },
     {
-      "name": "Messaging e Streaming",
-      "level": "Avanzato",
-      "keywords": ["Kafka", "Redis", "RabbitMQ", "MQTT"]
-    },
-    {
-      "name": "Database",
-      "level": "Avanzato",
-      "keywords": ["MySQL", "Cassandra", "Elasticsearch", "MongoDB", "Oracle", "MSSQL"]
-    },
-    {
-      "name": "Linguaggi",
-      "level": "Avanzato",
-      "keywords": ["Python", "Node.js", "Golang", "C#", ".NET", "Bash"]
-    },
-    {
-      "name": "Architettura Software",
+      "name": "Dati & Messaging",
       "level": "Esperto",
-      "keywords": ["Microservizi", "Design di Sistemi", "Leadership Tecnica"]
+      "keywords": ["Kafka", "Redis", "RabbitMQ", "MySQL", "PostgreSQL", "Cassandra", "Elasticsearch", "MongoDB"]
     },
     {
-      "name": "Soft Skills",
+      "name": "Architettura & Pratiche",
+      "level": "Esperto",
+      "keywords": ["Microservizi", "Architettura Event-Driven", "API REST", "Sistemi IoT", "MLOps", "TDD", "Agile"]
+    },
+    {
+      "name": "Osservabilità & AI tools",
       "level": "Avanzato",
-      "keywords": ["Mentoring di Team", "Code Review", "Collaborazione Cross-funzionale", "Metodologie Agile", "Problem-solving", "Gestione Stakeholder"]
+      "keywords": ["Prometheus", "Grafana", "ELK", "APM", "Claude Code", "Server MCP", "Sviluppo Assistito da AI"]
+    },
+    {
+      "name": "Metodologie & Skills",
+      "level": "Esperto",
+      "keywords": ["Leadership Tecnica", "Mentoring", "Code Review", "Collaborazione Interfunzionale", "Gestione Stakeholder"]
     }
   ],
   "languages": [
@@ -209,17 +134,25 @@
     },
     {
       "language": "Inglese",
-      "fluency": "Competenza professionale (B2)"
+      "fluency": "Competenza professionale (C1)"
     }
   ],
   "interests": [
     {
+      "name": "Viaggi & Fotografia",
+      "keywords": ["Viaggi Internazionali", "Esplorazione Culturale", "27 Paesi Visitati"]
+    },
+    {
       "name": "Attività in Montagna",
-      "keywords": ["Escursionismo", "Club Alpino (CAI)", "Outdoor"]
+      "keywords": ["Escursionismo", "Alpinismo", "Club Alpino (CAI)", "Trekking"]
+    },
+    {
+      "name": "Arte & Cultura",
+      "keywords": ["Cinema", "Musica", "Lettura"]
     },
     {
       "name": "Tecnologia",
-      "keywords": ["Cybersecurity", "DevOps", "Architettura Cloud"]
+      "keywords": ["Cybersecurity", "DevOps", "Architettura Cloud", "Open Source"]
     }
   ],
   "references": [],
@@ -227,7 +160,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2025-10-17",
+    "lastModified": "2025-11-19",
     "nationality": "Italiana"
   }
 }
