@@ -6,7 +6,7 @@
     "email": "daniele.faieta@gmail.com",
     "phone": "(+39) 3200725125",
     "url": "https://daniele.ghost-ed.it",
-    "summary": "Professionista nello sviluppo software con oltre 20 anni di esperienza su piattaforme cloud, sistemi IoT, architetture distribuite, pratiche DevOps e software enterprise. Forte versatilità acquisita grazie al lavoro su varie tecnologie e linguaggi come Java, .NET, Golang, Python, Scala e tecnologie cloud-native. Comprovata capacità di progettare sistemi scalabili, guidare iniziative tecniche, integrare infrastrutture complesse, mentoring e collaborare con le funzioni di prodotto, operations e business. Esperienza in architetture complesse, microservizi, sistemi event-driven e processi di automazione. Il mio motto è \"You get what you measure\".",
+    "summary": "Professionista del software con oltre 20 anni di esperienza su piattaforme cloud, sistemi IoT, architetture distribuite e software enterprise. Solida expertise in Java, Golang, Python, Scala e tecnologie cloud-native. Esperienza comprovata nella progettazione di sistemi scalabili, leadership tecnica, mentoring e nel tradurre esigenze di business in architetture robuste. Specializzazione su microservizi, event-driven architecture, infrastructure automation e high-availability design. Il mio motto è \"You get what you measure\".",
     "location": {
       "city": "Trento",
       "countryCode": "IT",
@@ -49,23 +49,23 @@
       "endDate": "2023-03-31",
       "summary": "Ho contribuito al team di platform engineering progettando e costruendo l'infrastruttura MLOps a supporto di applicazioni NLP enterprise. Ho sviluppato microservizi high availability e scalabili su Kubernetes, migliorato l'automazione e collaborato con team cross-functional per la delivery di rilasci trimestrali della piattaforma.",
       "highlights": [
-        "Sviluppo e delivery di ~20 microservizi scalabili in grado di gestire oltre 50 milioni di richieste API/messaggi al mese",
+        "Sviluppo e delivery di oltre 20 microservizi scalabili in grado di gestire oltre 50 milioni di richieste al mese",
         "Migrazione di componenti legacy C/JNI verso microservizi Java Spring Boot, migliorando manutenibilità e scalabilità",
-        "Riprogettata l'osservabilità della piattaforma implementando soluzioni di alerting, logging, monitoring e APM che hanno portato a una riduzione del 20% dei tempi di risposta agli incidenti",
+        "Implementato sistema di observability della piattaforma tramite stack ELK, riducendo i tempi di risposta agli incident del 20%",
         "Condotte oltre 200 code review e seguito la crescita di 5 sviluppatori junior, migliorando le metriche di code quality del team del 35%",
         "Contributo alla standardizzazione dell'infrastruttura cloud con IaC, riducendo i tempi di provisioning degli ambienti da giorni a ore",
-        "Contributo al mantenimento della conformità SLA del 98,5% per il supporto del prodotto NLAPI in 8 trimestri consecutivi",
-        "Contributo all'implementazione di best practice di auditing e sicurezza, ottenendo la certificazione ISO 27001 per la piattaforma"
+        "Manutenzione del prodotto NLAPI tenendo in conformità SLA del 98,5% per 8 trimestri consecutivi (oltre 2 anni)",
+        "Sviluppato sistema di audit logging e risolte oltre 100 vulnerabilità di sicurezza, contribuendo alle certificazioni ISO 27001 e SOC2 per la piattaforma MLOps"
       ],
       "location": "Remoto",
       "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "NodeJS", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "AWS", "Terraform"]
     },
     {
       "name": "Varie Aziende (2005-2019)",
-      "position": "Software Engineer",
+      "position": "Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft tra le altre",
       "startDate": "2005-12-01",
       "endDate": "2019-10-31",
-      "summary": "Ampio background nella consulenza e nello sviluppo software enterprise. Ho lavorato per aziende quali ad esempio Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft. L'esperienza spazia dalla leadership tecnica, integrazione di sistemi, automazione industriale, applicazioni GIS, sistemi payroll, software per pubblica amministrazione. Lo storico lavorativo completo è disponibile sul profilo LinkedIn.",
+      "summary": "Contributo tecnico in progetti di sviluppo software enterprise, piattaforme per la pubblica amministrazione, sistemi payroll, applicazioni GIS e automazione industriale. Guidati progetti di integrazione tra sistemi legacy e web services moderni. Evoluzione da stack .NET/C# a Java enterprise. Storico completo su LinkedIn.",
       "highlights": [
       ],
       "location": "Italia",

@@ -6,7 +6,7 @@
     "email": "daniele.faieta@gmail.com",
     "phone": "(+39) 3200725125",
     "url": "https://daniele.ghost-ed.it",
-    "summary": "Software professional with more than 20 years of experience across cloud platforms, IoT systems, distributed architectures, DevOps practices, and enterprise software. Strong versatility gained through long-term work with Java, .NET, Golang, Python, Scala and modern cloud-native technologies. Proven ability to design scalable systems, lead technical initiatives, integrate complex infrastructures, mentor engineers, and collaborate across product, operations, and business functions. Experienced in microservices, event-driven systems, infrastructure automation, and high-availability architectures. My motto is \"You get what you measure\".",
+    "summary": "Software professional with 20+ years of experience across cloud platforms, IoT systems, distributed architectures, and enterprise software. Deep expertise in Java, Golang, Python, Scala and cloud-native technologies. Track record of designing scalable systems, leading technical initiatives, mentoring engineers, and translating business needs into robust architectures. Specialized in microservices, event-driven systems, infrastructure automation, and high-availability design. My motto is \"You get what you measure\".",
     "location": {
       "city": "Trento",
       "countryCode": "IT",
@@ -49,23 +49,23 @@
       "endDate": "2023-03-31",
       "summary": "Contributed to platform engineering team building MLOps infrastructure supporting enterprise NLP applications. Developed high-availability microservices on Kubernetes, improved deployment automation, and collaborated with cross-functional teams to deliver quarterly platform releases meeting strict SLA commitments.",
       "highlights": [
-        "Designed and deployed ~20 microservices handling 50M+ API requests/messages monthly with 99.9% availability",
+        "Designed and deployed 20+ microservices handling 50M+ API requests monthly at 99.9% availability",
         "Transitioned legacy C/JNI components to modern Java Spring Boot microservices, improving maintainability and scalability",
-        "Reworked platform observability implementing alerting, logging, monitoring and APM solutions that led to reduced incident response times by 20%",
+        "Built platform observability using ELK stack, reducing incident response time by 20%",
         "Conducted 200+ code reviews and mentored 5 junior developers, improving team code quality metrics by 35%",
         "Contributed to infrastructure-as-code standardization, reducing environment provisioning time from days to hours",
-        "Contributed to maintainability of 98.5% SLA compliance for NLAPI product support across 8 consecutive quarters",
-        "Contributed to implementing auditing and security best practices, obtaining ISO 27001 certification for the platform"
+        "Maintained 98.5% SLA compliance for NLAPI product across 8 consecutive quarters (2+ years)",
+        "Developed audit logging system and resolved 100+ security vulnerabilities, contributing to ISO 27001 and SOC2 certifications for the MLOps platform"
       ],
       "location": "Remote",
       "keywords": ["Java", "Spring Boot", "Docker", "Kubernetes", "NodeJS", "Golang", "Kafka", "Redis", "RabbitMQ", "MySQL", "Elasticsearch", "AWS", "Terraform"]
     },
     {
       "name": "Various Companies (2005-2019)",
-      "position": "Software Engineer",
+      "position": "Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft among others",
       "startDate": "2005-12-01",
       "endDate": "2019-10-31",
-      "summary": "Extensive background in consultancy and enterprise software development, including roles at Almaviva S.p.A., Wolters Kluwer Italia, Digitalsoft. Experience spans technical leadership, system integration, industrial automation, GIS applications, payroll systems, public administration software. Complete employment history available on LinkedIn profile.",
+      "summary": "Technical lead across enterprise software development, public administration platforms, payroll systems, GIS applications, and industrial automation. Led integration projects connecting legacy systems with modern web services. Evolved from .NET/C# to Java enterprise stack. Full history on LinkedIn.",
       "highlights": [
       ],
       "location": "Italy",
