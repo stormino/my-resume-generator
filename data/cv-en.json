@@ -34,7 +34,7 @@
       "highlights": [
         "Integrated 15+ new IoT device types (sensors, digital displays, gateways), unlocking client needs and expanding platform capabilities by 40%",
         "Architected and delivered 3 custom vertical solutions for retail, industry, and facility management sectors",
-        "Reduced cloud infrastructure costs by 25% through optimization existing infrastructure",
+        "Reduced cloud infrastructure costs by 25% through optimizing existing infrastructure",
         "Improved system reliability to 99.5% uptime across the last year through infrastructure redesign and monitoring enhancements",
         "Mentored 6 junior developers and interns",
         "Reduced feature delivery cycle from 8 weeks to 2 weeks through agile processes, technical improvements (CI/CD automation, testing best practices), and pioneering GenAI adoption (Claude Code, MCP servers, AI agents)"
@@ -47,7 +47,7 @@
       "position": "Software Engineer, R&D",
       "startDate": "2019-10-01",
       "endDate": "2023-03-31",
-      "summary": "Contributed to platform engineering team building MLOps infrastructure supporting enterprise NLP applications. Developed high-availability microservices on Kubernetes, improved deployment automation, and collaborated with cross-functional teams to deliver quarterly platform releases meeting strict SLA commitments.",
+      "summary": "Contributed to platform engineering team building a new MLOps platform supporting enterprise NLP applications. Developed high-availability microservices on Kubernetes, improved deployment automation, and collaborated with cross-functional teams to deliver quarterly platform releases meeting strict SLA commitments.",
       "highlights": [
         "Designed and deployed 20+ microservices handling 50M+ API requests monthly at 99.9% availability",
         "Transitioned legacy C/JNI components to modern Java Spring Boot microservices, improving maintainability and scalability",
@@ -86,7 +86,7 @@
     {
       "institution": "Wall Street Institute",
       "area": "English Language",
-      "studyType": "Level 12 (Threshold - C1)",
+      "studyType": "Level 12 (C1)",
       "startDate": "2009-09-01",
       "endDate": "2010-10-31",
       "location": "Pescara, Italy"

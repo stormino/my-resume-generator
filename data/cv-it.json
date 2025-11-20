@@ -47,7 +47,7 @@
       "position": "Software Engineer, R&D",
       "startDate": "2019-10-01",
       "endDate": "2023-03-31",
-      "summary": "Ho contribuito al team di platform engineering progettando e costruendo l'infrastruttura MLOps a supporto di applicazioni NLP enterprise. Ho sviluppato microservizi high availability e scalabili su Kubernetes, migliorato l'automazione e collaborato con team cross-functional per la delivery di rilasci trimestrali della piattaforma.",
+      "summary": "Ho contribuito al team di platform engineering progettando e costruendo la nuova piattaforma MLOps a supporto di applicazioni NLP enterprise. Ho sviluppato microservizi high availability e scalabili su Kubernetes, migliorato l'automazione e collaborato con team cross-functional per la delivery di rilasci trimestrali della piattaforma.",
       "highlights": [
         "Sviluppo e delivery di oltre 20 microservizi scalabili in grado di gestire oltre 50 milioni di richieste al mese",
         "Migrazione di componenti legacy C/JNI verso microservizi Java Spring Boot, migliorando manutenibilità e scalabilità",
@@ -86,7 +86,7 @@
     {
       "institution": "Wall Street Institute",
       "area": "Lingua Inglese",
-      "studyType": "Livello 12 (Threshold - C1)",
+      "studyType": "Livello 12 (C1)",
       "startDate": "2009-09-01",
       "endDate": "2010-10-31",
       "location": "Pescara, Italia"
